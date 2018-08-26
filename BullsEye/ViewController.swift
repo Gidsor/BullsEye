@@ -2,7 +2,7 @@
 //  ViewController.swift
 //  BullsEye
 //
-//  Created by Vadim Denisov on 26.08.2018.
+//  Created by  Vadim Denisov on 26.08.2018.
 //  Copyright © 2018 Vadim Denisov. All rights reserved.
 //
 
@@ -19,7 +19,12 @@ class ViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
-
+    
+    @IBAction func showAlert() {
+        let alert = UIAlertController(title: "Hello, World", message: "This is my first app!", preferredStyle: .alert)
+        let action = UIAlertAction(title: "Awesome", style: .default, handler: nil)
+        alert.addAction(action)
+        present(alert, animated:  true, completion: nil)
+    }
 }
 
