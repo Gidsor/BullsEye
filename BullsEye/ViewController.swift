@@ -22,12 +22,11 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        startNewRound()
+        startNewGame()
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
     }
     
     @IBAction func showAlert() {
@@ -76,7 +75,7 @@ class ViewController: UIViewController {
         updateLabels()
     }
     
-    @IBAction func resetRound() {
+    @IBAction func startNewGame() {
         round = 0
         score = 0
         startNewRound()
