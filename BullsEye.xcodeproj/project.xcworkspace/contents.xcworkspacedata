@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:BullsEye.xcodeproj">
+      location = "group:/Users/gidsor/Projects/BullsEye/llAssets.xcassets">
+   </FileRef>
+   <FileRef
+      location = "self:">
    </FileRef>
 </Workspace>

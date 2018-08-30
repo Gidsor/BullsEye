@@ -1,5 +1,5 @@
 //
-//  AboutViewController.swift
+//  AboutGameViewController.swift
 //  BullsEye
 //
 //  Created by Vadim Denisov on 30.08.2018.
