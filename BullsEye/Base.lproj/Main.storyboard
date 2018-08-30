@@ -58,6 +58,9 @@
                                 <rect key="frame" x="70" y="248" width="71" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Start Over"/>
+                                <connections>
+                                    <action selector="resetRound" destination="BYZ-38-t0r" eventType="touchUpInside" id="IG6-ZT-i4G"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="infoLight" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LJf-Hz-GOu">
                                 <rect key="frame" x="476" y="252" width="22" height="22"/>
