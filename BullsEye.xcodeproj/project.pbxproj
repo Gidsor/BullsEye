@@ -14,6 +14,7 @@
 		C0B27C782137DCCC0054A4E3 /* AboutGameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0B27C772137DCCC0054A4E3 /* AboutGameViewController.swift */; };
 		C0B27C7A2137E2A20054A4E3 /* AboutAuthorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0B27C792137E2A20054A4E3 /* AboutAuthorViewController.swift */; };
 		C0B27C802137EB620054A4E3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C0B27C7F2137EB620054A4E3 /* Images.xcassets */; };
+		C0B27C82213823330054A4E3 /* BullsEye.html in Resources */ = {isa = PBXBuildFile; fileRef = C0B27C81213823330054A4E3 /* BullsEye.html */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		C0B27C772137DCCC0054A4E3 /* AboutGameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutGameViewController.swift; sourceTree = "<group>"; };
 		C0B27C792137E2A20054A4E3 /* AboutAuthorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutAuthorViewController.swift; sourceTree = "<group>"; };
 		C0B27C7F2137EB620054A4E3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C0B27C81213823330054A4E3 /* BullsEye.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = BullsEye.html; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 				C00F17C62131E13000D4DABF /* Info.plist */,
 				C0B27C792137E2A20054A4E3 /* AboutAuthorViewController.swift */,
 				C0B27C7F2137EB620054A4E3 /* Images.xcassets */,
+				C0B27C81213823330054A4E3 /* BullsEye.html */,
 			);
 			path = BullsEye;
 			sourceTree = "<group>";
@@ -129,6 +132,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C0B27C802137EB620054A4E3 /* Images.xcassets in Resources */,
+				C0B27C82213823330054A4E3 /* BullsEye.html in Resources */,
 				C00F17C52131E13000D4DABF /* LaunchScreen.storyboard in Resources */,
 				C00F17C02131E12E00D4DABF /* Main.storyboard in Resources */,
 			);
